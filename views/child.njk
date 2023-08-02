@@ -1,0 +1,11 @@
+{% extends "base.njk" %}
+
+{% block nav %}
+    Child Navigation
+    {{ variable }}
+{% endblock %}
+
+{% block body %}
+    Child Body
+    {% include "to_include.njk" %}
+{% endblock %}
